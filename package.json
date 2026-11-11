@@ -1,0 +1,11 @@
+{
+  "name": "@xiqiqi/site-places",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "奇境 · 别有洞天",
+  "scripts": {
+    "dev": "node ../oddities-core/scripts/build.mjs --config site.config.ts --dev",
+    "build": "node ../oddities-core/scripts/build.mjs --config site.config.ts"
+  }
+}
